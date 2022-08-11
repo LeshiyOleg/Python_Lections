@@ -43,6 +43,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from bot_commands import *
 
+# name of the bot Ooooh_my_python_bot
 updater = Updater('5328430968:AAEKnOlWK_9H-4P0Yge_Cul_Pq0jvT6Ov5Q')
 
 updater.dispatcher.add_handler(CommandHandler('hi', hi_command))
